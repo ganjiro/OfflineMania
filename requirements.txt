@@ -1,5 +1,1 @@
 gymnasium==0.29.1
-h5py==3.10.0
-mlagents==0.30.0
-mlagents-envs==0.30.0
-numpy==1.26.3

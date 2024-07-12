@@ -57,11 +57,17 @@ Each episode has a fixed length of 2,000 steps with randomized start position an
    ```bash
    git clone https://github.com/ganjiro/OfflineMania.git
    ```
-2. Install the required dependencies:
+2. Follow the official guide to install the [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md).
+
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Follow the official guide to install the [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md).
+
+4. **For Linux users only** set the permission to run the game using ML-Agents:
+      ```bash
+   chmod -R 755 Game/Linux/OfflineMania.x86_64
+   ```
 
 ## Usage
 
