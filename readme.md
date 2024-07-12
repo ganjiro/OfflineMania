@@ -26,11 +26,7 @@ The action space consists of two continuous values:
 
 ### Reward Signal
 
-The reward function is progress-based with penalties for collisions:
-\[ r_t = r_{prog}^t - \begin{cases} 
-\lambda \|v_{car}\| & \text{if in contact with wall} \\
-0 & \text{otherwise} 
-\end{cases} \]
+The reward function is progress-based with penalties for collisions.
 
 ### Episode
 
