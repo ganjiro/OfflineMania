@@ -9,6 +9,7 @@ import time
 import gymnasium as gym
 from gymnasium import spaces
 
+dataset_list = ["basic", "basicSmall", "expert", "medium", "mixLarge", "mixSmall"]
 
 class UnityEnv(gym.Env):
     def __init__(self, game_files, no_graphics=True, worker_id=0, seed=int(time.time()), time_scale=100,
@@ -78,6 +79,9 @@ class UnityEnv(gym.Env):
         self.unity_env.close()
 
     def get_dataset(self, path, name):
+
+        if name not in dataset_list:
+            raise NotImplementedError
 
         if name == 'mixLarge':
             # split because of the Github size limit

@@ -1,5 +1,5 @@
 import gymnasium as gym
-from OfflineMania.OfflineManiaWrapper import UnityEnv
+from OfflineMania.offlineManiaWrapper import UnityEnv
 
 gym.envs.registration.register(
     id='OfflineMania-v0',
