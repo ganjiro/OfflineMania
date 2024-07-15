@@ -1,6 +1,6 @@
 # OfflineMania: A Benchmark Environment for Offline Reinforcement Learning in Racing Games
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](todo)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](http://arxiv.org/abs/2407.09415)
 
 <img src="assets/track.png" width="480" alt="Image of the environment">
 
@@ -95,7 +95,15 @@ Our environment is based on [IR-Project](https://github.com/monidp9/IR-Project).
 
 ## Citation
 ```bibtex
-Todo
+@misc{macaluso2024benchmarkenvironmentofflinereinforcement,
+      title={A Benchmark Environment for Offline Reinforcement Learning in Racing Games}, 
+      author={Girolamo Macaluso and Alessandro Sestini and Andrew D. Bagdanov},
+      year={2024},
+      eprint={2407.09415},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2407.09415}, 
+}
 ```
 
 ## Contact
